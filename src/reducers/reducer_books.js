@@ -1,8 +1,8 @@
 export default function() {
   return [
-    { title: 'Javascript: The Good Parts', pages: 101 },
-    { title: 'Harry Potter', pages: 39 },
-    { title: 'The Dark Tower', pages: 85 },
-    { title: 'Eloquent Ruby', pages: 1 }
+    { title: '《西游记》', pages: 101 },
+    { title: '《红楼梦》', pages: 39 },
+    { title: '《水浒传》', pages: 85 },
+    { title: '《三国演义》', pages: 1 }
   ];
 }

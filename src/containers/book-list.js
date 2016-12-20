@@ -36,6 +36,7 @@ function mapStateToProps(state) {
 
 // Anything returned from this function will end up as props
 // on the BookList container
+// bindActionCreators 的作用就是将 Actions 和 dispatch 组合起来生成 mapDispatchToProps 需要生成的内容。
 function mapDispatchToProps(dispatch) {
   // Whenever selectBook is called, the result shoudl be passed
   // to all of our reducers
