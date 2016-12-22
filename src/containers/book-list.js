@@ -7,6 +7,7 @@ class BookList extends Component {
   renderList() {
     return this.props.books.map((book) => {
       return (
+        // 初始状态自动渲染books、
         // 点击一下，把book传递给action creator
         <li
           key={book.title}
