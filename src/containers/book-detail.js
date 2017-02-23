@@ -3,14 +3,12 @@ import { connect } from 'react-redux';
 
 class BookDetail extends Component {
   render() {
-    // book props不存在显示
     if (!this.props.book) {
       return (
         <div>Select a book to get started.</div>
       );
     }
 
-    // book props存在
     return (
       <div>
         <br/><br/><br/><br/>
@@ -23,8 +21,6 @@ class BookDetail extends Component {
   }
 }
 
-// 看有没有触发action,没有触发book就不存在
-// 要挂到的组件上也就没有这个book这个props
 function mapStateToProps(state) {
   return {
     book: state.activeBook
