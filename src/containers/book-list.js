@@ -22,8 +22,8 @@ class BookList extends Component {
   render() {
     return (
       <div>
-        <h1>菜单组件</h1>
-        <ul className="list-group col-sm-4">
+        <h1>React-Redux-demo</h1>
+        <ul>
           {this.renderList()}
         </ul>
       </div>
