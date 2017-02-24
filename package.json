@@ -1,13 +1,13 @@
 {
-  "name": "redux-simple-starter",
+  "name": "redux-starter",
   "version": "1.0.0",
   "description": "Simple starter package for Redux with React and Babel support",
   "main": "index.js",
-  "repository": "git@github.com:StephenGrider/ReduxSimpleStarter.git",
+  "repository": "git@github.com:allan2coder/ReduxStarter.git",
   "scripts": {
     "start": "node ./node_modules/webpack-dev-server/bin/webpack-dev-server.js"
   },
-  "author": "",
+  "author": "Allan Xu",
   "license": "ISC",
   "devDependencies": {
     "babel-core": "^6.2.1",
