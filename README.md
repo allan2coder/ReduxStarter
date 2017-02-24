@@ -8,3 +8,7 @@ Checkout this repo, install dependencies, then start the gulp process with the f
 	> npm install
 	> npm start
 ```
+
+Then, open your browser.
+
+You should see a new browser tap opening and a page of "index.html" in http://127.0.0.1:8080.
