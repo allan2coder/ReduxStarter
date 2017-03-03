@@ -1,6 +1,6 @@
 # ReduxStarter
 
-Checkout this repo, install dependencies, then start the gulp process with the following:
+Checkout this repo, install dependencies, then start the process with the following:
 
 ```
 	> git clone git@github.com:allan2coder/ReduxStarter.git
